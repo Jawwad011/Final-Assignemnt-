@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib.pyplot as plt
+
 
 data=pd.read_csv("athlete_events.csv")
 
