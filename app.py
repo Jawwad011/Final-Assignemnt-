@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 
-data=pd.read_csv(r"C:\Users\SAAD COMMUNICATION\Desktop\athlete_events.csv")
+data=pd.read_csv("athlete_events.csv")
 
 st.set_page_config(layout='wide')
 st.title("Olympic Dataset history")
